@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Tangkak District</title>
+<link rel="stylesheet" type="text/css" href="nature.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+
+<div class="header">
+  <h1>TANGKAK DISTRICT</h1>
+</div>
+
+<div class="navbar">
+  <a href="contact.html">CONTACT</a>
+  <a href="video.html">VIDEO</a>
+  <a href="food.html">FOOD</a>
+  <a href="things.html">THINGS TO DO</a>
+  <a href="nature.html">NATURE</a>
+  <a href="culture.html">CULTURE</a>
+  <div class="dropdown"><button class="dropbtn">ABOUT US<i class="fa fa-caret-down"></i></button>
+  <div class="dropdown-content">
+  <a href="about.html">LOCAL COMMUNITY</a>
+  <a href="history.html">HISTORY</a>
+  </div>
+  </div>
+  <a href="index.html">HOME</a>
+</div>
+
+<div class="w3-content" style="max-width:2000px;margin-top:46px"></div>
+</div>
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center">
+    <img src="ss1.jpg" width="100%" height="450px">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small"> 
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="ss4.jpg" width="100%" height="450px">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">    
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="ss3.jpg" width="100%" height="450px">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">   
+    </div>
+  </div>
+</div>
+
+<body>
+  <center>
+  <br>
+  <br>
+  <h2><span>Nature Place in Tangkak</span></h2>
+  </center>
+  <br>
+  <center><div class="w3-panel w3-card-4 w3-white" style="width:1000px;">
+    <br>
+    <h3 style="font-family:serif;">MOUNT OPHIR @ GUNUNG LEDANG</h3>
+    <p>Mount Ophir (or Gunung Ledang) is a 1,276m tall mountain situated at northwest Johor in Malaysia. It is one of the most popular and challenging mountains in Malaysia that can be done in a day; commonly used as a training ground for aspiring mountain trekkers. For this trek, we will be taking the main Lagenda trail also known as the Sagil Trail due to its proximity to Sagil Village.</p>
+    <br>
+    <img src="nature2.jpg" width="550px" height="400px">
+    <br>
+    <br>
+    </center></div>
+
+    <center><div class="w3-panel w3-card-4 w3-white" style="width:1000px;">
+        <br>
+        <h3 style="font-family:serif;">GUNUNG LEDANG WATERFALL @ PUTERI FALL</h3>
+        <p>The Puteri Fall is named after this legendary Princess. The fall is located on the lower slopes of the mountain which are easily accessible by a cemented walkway. They attract a big crowd, especially during weekends. Nice swimmingpools and picknick places in a surrounding of imposing tropical forest.</p>
+        <br>
+        <img src="nature1.jpg" width="550px" height="400px">
+        <br>
+        <br>
+    </center></div>
+
+    <center><div class="w3-panel w3-card-4 w3-white" style="width:1000px;">
+    <br>
+    <h3 style="font-family:serif;">SUNGAI BANTANG WATERFALL</h3>
+    <p>Bekok Waterfall or call it Sungai Bantang Waterfall, it's located at Hutan Lipur Sungai Bantang, 8 kilometres from Bekok town. This area has its own distinctive nature uniqueness. The crackle sprinkle resonance of clear and cool waters. The beautiful singing of the birds. Beauty which brings relaxation and peace to anyone who visits will surely leave an aesthetical memory.</p>
+    <br>
+    <img src="nature3.jpg" width="550px" height="400px">
+    <br>
+    <br>
+    </center></div>
+
+    <center><div class="w3-panel w3-card-4 w3-white" style="width:1000px;">
+        <br>
+        <h3 style="font-family:serif;">ENDAU-ROMPIN NATIONAL PARK</h3>
+        <p>Endau-Romping is a beautiful national park in the southeastern part of Peninsular Malaysia. Together with Taman Negara and Royal Belum State Park it contains some of the oldest rainforests in the world. The name comes from the two rivers that run through the park; the Endau River and the Rompin River. People that visit the national park do so to visit the many wonderful waterfalls, or to visit the Orang Asli tribes. The park is not easily accessible (by normal vehicles) which makes it an attraction especially popular among adventure seekers. Many travel agencies offer package tours to Endau-Rompin; this often includes transport, accommodation, meals and guided jungle trails. Entry to the park requires a special permit (RM10) from the Johor National Park Corporation.</p>
+        <br>
+        <img src="nature4.jpg" width="550px" height="400px">
+        <br>
+        <br>
+    </center></div>
+
+<br>
+<div class="footer">
+    <p><strong> &COPY;Copyright 2021. Community website. Tangkak district.com </strong></p>
+</div> 
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+</script>
+
+</body>
+</html>
